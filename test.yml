@@ -9,5 +9,5 @@ phases:
 reports:
   report-group-name-or-arn:
     files:
-      - test-report.html
+      - test-report.xml
     base-directory: ./
