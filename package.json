@@ -6,12 +6,14 @@
   "main": "server.js",
   "scripts": {
     "start": "node built/server.js",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "dependencies": {
     "@types/pg": "^8.6.1",
     "aws-sdk": "^2.822.0",
     "express": "^4.16.1",
+    "jest": "^27.4.7",
     "pg": "^8.7.1",
     "typescript": "^4.2.3",
     "uuid": "^3.3.2"
