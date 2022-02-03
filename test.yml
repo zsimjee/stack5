@@ -6,3 +6,8 @@ phases:
       - npm install
       - npm run build
       - npm run test
+reports:
+  report-group-name-or-arn:
+    files:
+      - test-report.html
+    base-directory: ./
