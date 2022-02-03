@@ -3,4 +3,6 @@ phases:
   build:
     on-failure: CONTINUE
     commands:
+      - npm install
+      - npm run build
       - npm run test
