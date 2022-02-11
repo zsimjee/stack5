@@ -6,3 +6,11 @@ phases:
       - docker build -t builtimage .
       - docker tag builtimage:latest $ECR_IMAGE_URL:latest
       - docker push $ECR_IMAGE_URL:latest
+      - npm install
+      - npm run build
+      - npm run test
+reports:
+  report-group-name-or-arn:
+    files:
+      - test-report.xml
+    base-directory: ./
