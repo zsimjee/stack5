@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="1" errors="0" time="0.192">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2022-02-03T05:10:28" time="0.169" tests="2">
+    <testcase classname=" two plus two is four" name=" two plus two is four" time="0.001">
+    </testcase>
+    <testcase classname=" two plus two is five" name=" two plus two is five" time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 5
+Received: 4
+    at Object.&lt;anonymous&gt; (/home/zayd/workspace/stack5/tst/server.test.ts:7:19)
+    at Promise.then.completed (/home/zayd/workspace/stack5/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/zayd/workspace/stack5/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/zayd/workspace/stack5/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at _runTest (/home/zayd/workspace/stack5/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/zayd/workspace/stack5/node_modules/jest-circus/build/run.js:66:9)
+    at run (/home/zayd/workspace/stack5/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/zayd/workspace/stack5/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,9 +1,10 @@
-import * as express from "express";
+import express from "express";
 import { json } from "body-parser";
 
 import { deleteDynamoDbItem, getDynamoDbItem, putDynamoDbItem, updateDynamoDbItem } from "./dynamodb-item";
 import { deletePostgresItem, getPostgresDbItem, createPostgresDbItem, updatePostgresItem  } from "./postgresdb-item";
 import { deleteItem, getItem, putItem, updateItem, listItems } from "./local-item";
+import fetch from 'node-fetch';
 
 
 // Constants
@@ -16,6 +17,13 @@ const parser = json();
 
 app.get("/", (req:any, res:any) => {
   res.status(200).send("hello world!");
+});
+
+app.get("/google", async (req:any, res:any) => {
+  const response = await fetch('https://github.com/');
+  const body = await response.text();
+
+  res.status(200).send(body);
 });
 
 app.get("/ping", (req:any, res:any) => {
