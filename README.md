@@ -4,7 +4,7 @@ The AWS Docker Templates for Express from TinyStacks enable launching an [Expres
 
 ## License
 
-This sample code is made available under a modified MIT license. See the LICENSE file.
+This sample code is made available undersdfsdf a modified MIT license. See the LICENSE file.
 
 ## Outline
 
