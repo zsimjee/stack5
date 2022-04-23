@@ -19,6 +19,11 @@ app.get("/", (req:any, res:any) => {
   res.status(200).send("hello world!");
 });
 
+app.get("/log", (req:any, res:any) => {
+  console.log("HI!");
+  res.status(200).send("hello world!");
+});
+
 app.get("/example", async (req:any, res:any) => {
   const response = await fetch('https://example.com/');
   const body = await response.text();
