@@ -8,7 +8,7 @@ import fetch from 'node-fetch';
 
 
 // Constants
-const PORT = process.env.STAGE === "local" ? 8000 : 80;
+const PORT = 8000;
 const HOST = '0.0.0.0';
 
 // App handlers
