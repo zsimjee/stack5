@@ -13,8 +13,7 @@ This sample code is made available undersdfsdf a modified MIT license. See the L
   - [Sample Application](#sample-application)asdfsdasdaf
   - [Dockerfile](#dockerfile)
   - [Build Template](#build-template)
-  - [Release Template](#release-template)
-- [Getting Started](#getting-started)
+  - [Release Template](#release-template)afasfsadf
   - [Existing Project](#existing-project)
 - [Known Limitations](#known-limitations)
 
