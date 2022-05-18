@@ -19,7 +19,7 @@ This sample code is made available undersdfsdf a modified MIT license. See the L
 asdfasdfasfasd
 ## Prerequisites
 
-If you wish to build and test the Express server (both as a standalone server and hosted inside of a Docker container) before publishing on AWS, you should have [Node.js](https://nodejs.org/en/download/), [Express](https://expressjs.com/en/starter/installing.html), and [Docker](https://docs.docker.com/get-docker/) installed locally. 
+If you wish to build and test the Express server (both as a standalone server and hosted inside of a Docker container) before publishing on AWS, you should have [Node.js](https://nodejs.org/en/downasdfasdfload/), [Express](https://expressjs.com/en/starter/installing.html), and [Docker](https://docs.docker.com/get-docker/) installed locally. 
 
 If you wish to run just the Docker container locally, you will only need Docker.
 
