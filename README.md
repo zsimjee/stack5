@@ -21,7 +21,7 @@ asdfasdfasfasd
 
 If you wish to build and test the Express server (both as a standalone server and hosted inside of a Docker container) before publishing on AWS, you should have [Node.js](https://nodejs.org/en/downasdfasdfload/), [Express](https://expressjs.com/en/starter/installing.html), and [Docker](https://docs.docker.com/get-docker/) installed locally. 
 
-If you wish to run just the Docker container locally, you will only need Docker.
+If you wish to run just the Docker container locasdfasdfasdfally, you will only need Docker.
 
 This document also assumes that you have access to an AWS account. If you do not have one, [create one before getting started](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/).
 
