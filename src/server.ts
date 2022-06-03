@@ -19,6 +19,12 @@ app.get("/", (req:any, res:any) => {
   res.status(200).send("hello world!");
 });
 
+app.get("cookies", (req:any, res:any) => {
+  res.set('Access-Control-Expose-Headers', 'field');
+  res.set('set-cookies', 'cookie');
+  res.status(200).send("hello world!");
+});
+
 app.get("/log", (req:any, res:any) => {
   console.log("HI!");
   res.status(200).send("hello world!");
