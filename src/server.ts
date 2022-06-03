@@ -21,8 +21,8 @@ app.get("/", (req:any, res:any) => {
 
 app.get("/cookies", (req:any, res:any) => {
   res.set('Access-Control-Expose-Headers', 'field');
-  res.set('set-cookies', 'a=b');
-  res.set('set-cookies', 'c=d');
+  res.set('set-cookie', 'a=b');
+  res.set('set-cookie', 'c=d');
   res.set('custom-header', 'asdfsadf');
   res.status(200).send("hello world!");
 });
