@@ -19,7 +19,7 @@ app.get("/", (req:any, res:any) => {
   res.status(200).send("hello world!");
 });
 
-app.get("cookies", (req:any, res:any) => {
+app.get("/cookies", (req:any, res:any) => {
   res.set('Access-Control-Expose-Headers', 'field');
   res.set('set-cookies', 'a=b');
   res.status(200).send("hello world!");
