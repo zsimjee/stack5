@@ -24,6 +24,21 @@ app.get("/cookies", (req:any, res:any) => {
   res.set('set-cookie', 'a=b');
   res.set('set-cookie', 'c=d');
   res.set('custom-header', 'asdfsadf');
+  res.set('Server', 'Cowboy');
+  res.set('Date', 'Fri, 10 Jun 2022 18:57:54 GMT');
+  res.set('Connection', 'keep-alive');
+  res.set('Strict-Transport-Security', 'max-age=16070400; includeSubDomains');
+  res.set('X-Frame-Options', 'deny');
+  res.set('X-Xss-Protection', '1; mode=block');
+  res.set('X-Content-Type-Options', 'nosniff');
+  res.set('Cache-Control', 'no-cache, no-store');
+  res.set('Location', 'https://staging.snapcell.us.com/session/new');
+  res.set('Content-Type', 'text/html; charset=utf-8');
+  res.set('Set-Cookie','_snapcell_session o7ZzYvXstLiUQkN%2B6cxvHFcb5ecoVmXYpiC4NfLYU9NO%2FAx5br6Ln64xUHzf1KhhXpbCuynmC7XKgIXmO6vvIgcOSrRWnd7WnbPz8%2BQYzBEvogGpQB29FF1pQYPHiGv8tLAZgBDa1%2FzFrQ8UWKX7mD4Yc7HMcf3buWbfI%3D--VqwAmejBx1TmsY52--kVDge8rZhhCU9Xrml6z4EQ%3D%3D; path=/; secure; HttpOnly');
+  res.set('X-Request-Id', '2462b679-03c1-435b-9415-178ab3bbbb43');
+  res.set('X-Runtime', '0.005792');
+  res.set('Transfer-Encoding', 'chunked');
+  res.set('Via', '1.1 vegur');
   res.status(200).send("hello world!");
 });
 
